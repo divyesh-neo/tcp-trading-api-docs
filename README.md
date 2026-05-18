@@ -118,12 +118,12 @@ send(socket_fd, &sub, sizeof(sub), 0);
 
 ---
 
-# Frontend Response Packet
+# Subscribe Response Packet
 
 ```cpp
 #pragma pack(push, 1)
 
-struct FrontendResponsePacket {
+struct SubscribeResponsePacket {
     bool success;
     uint32_t token;
 };
