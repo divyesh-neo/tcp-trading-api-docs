@@ -86,7 +86,7 @@ struct SubscribePacket {
     bool is_subsribe;
 };
 
-struct FrontendResponsePacket {
+struct SubscribeResponsePacket {
     bool success;
     uint32_t token;
 };
