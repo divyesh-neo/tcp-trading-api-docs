@@ -13,6 +13,8 @@ allocation, no length-prefix parsing.
 | **TCP 2 – Order & Portfolio** | Bidirectional | Place / modify / cancel orders (send); receive order updates, ACKs, and portfolio run/stop commands (recv) |
 
 Testing Zip: [Download Testing ZIP](downloads/release.zip)
+--
+<a href="downloads/release.zip" download>Download Testing ZIP</a>
 
 *Note: This ZIP is for testing purposes only. When you subscribe to a token, the system generates random market data for that token. The data is not realistic and should not be used for strategy validation. You can use any `pf_id` from `0` to `5000` for testing.*
 
