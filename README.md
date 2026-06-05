@@ -84,6 +84,7 @@ struct MarketDepthData {
     uint32_t asks[5];
     uint32_t bids_qty[5];
     uint32_t asks_qty[5];
+    uint32_t last_traded_price;
 };
 
 struct NewOrderData {
